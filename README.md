@@ -23,6 +23,12 @@ https://www.kaggle.com/datasets/arashnic/goodreads-interactions-dataset
 The dataset contains user–book interactions including explicit ratings.
 All datasets are cleaned and preprocessed before modeling.
 
+> Note: Due to GitHub file size limitations, the raw and processed dataset files
+> are not included in this repository.  
+> The dataset can be downloaded from the provided Kaggle link, and all preprocessing
+> steps can be reproduced using the scripts in the `src/preprocessing/` directory.
+
+
 ---
 
 ## Project Structure
@@ -153,6 +159,17 @@ pip install -r requirements.txt
 ```
 
 ### 3. Data Preprocessing
+⚠️ The dataset files are not included in this repository due to GitHub size limitations.
+
+Before running preprocessing, download the **Goodreads Interactions Dataset** from Kaggle
+and place the raw files under the `data/raw/` directory following the structure described
+in the project.
+
+Then, clean and prepare the dataset by running:
+```bash
+python src/preprocessing/preprocess.py
+```
+
 Clean and prepare the dataset.
 ```bash
 python src/preprocessing/preprocess.py
@@ -197,3 +214,4 @@ Then open your browser and go to: http://127.0.0.1:5000
 
 ## Project Presentation
 📄 [Final Presentation (PDF)](presentation.pdf)
+
