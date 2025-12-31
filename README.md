@@ -52,7 +52,6 @@ book-recommendation-system/
 │ ├── models/ # ML models and evaluations
 │ └── recommender/ # SVD recommendation logic
 ├── venv/ # Virtual environment (general ML models)
-├── venv_svd/ # Virtual environment (Surprise + NumPy < 2)
 ├── README.md
 └── requirements.txt
 
@@ -200,6 +199,7 @@ Then open your browser and go to: http://127.0.0.1:5000
 
 ## Project Presentation
 📄 [Final Presentation (PDF)](presentation.pdf)
+
 
 
 
